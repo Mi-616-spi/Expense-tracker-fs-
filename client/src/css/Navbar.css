@@ -1,0 +1,80 @@
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a90e2;
+  color: white;
+  padding: 15px 40px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-family: 'Inter', Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-brand-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.navbar-brand-icon::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbar-links a.nav-link {
+  color: #e0e0ff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a.nav-link:hover,
+.navbar-links a.nav-link.active {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-socials {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.social-icon {
+  fill: white;
+  width: 18px;
+  height: 18px;
+  transition: opacity 0.2s ease;
+}
+
+.social-icon:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,19 @@
+
+.transaction-list {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.no-transactions {
+  text-align: center;
+  color: #aaa;
+  padding: 24px;
+  font-size: 14px;
+}
+
+.loading {
+  text-align: center;
+  color: #888;
+  padding: 20px;
+}

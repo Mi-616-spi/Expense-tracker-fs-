@@ -1,0 +1,99 @@
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.15s;
+}
+
+.transaction-item:last-child {
+  border-bottom: none;
+}
+
+.transaction-item:hover {
+  background-color: #f9f9f9;
+}
+
+
+.transaction-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.transaction-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.badge.income {
+  background-color: #e6f4ea;
+  color: #2e7d32;
+}
+
+.badge.expense {
+  background-color: #fdecea;
+  color: #c62828;
+}
+
+.transaction-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.transaction-amount {
+  font-size: 16px;
+  font-weight: bold;
+  min-width: 80px;
+  text-align: right;
+}
+
+.transaction-amount.income {
+  color: #2e7d32;
+}
+
+.transaction-amount.expense {
+  color: #c62828;
+}
+
+.btn-edit {
+  background-color: #f0a500;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: opacity 0.2s;
+}
+
+.btn-edit:hover {
+  opacity: 0.85;
+}
+
+.btn-delete {
+  background-color: #e53935;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: opacity 0.2s;
+}
+
+.btn-delete:hover {
+  opacity: 0.85;
+}
